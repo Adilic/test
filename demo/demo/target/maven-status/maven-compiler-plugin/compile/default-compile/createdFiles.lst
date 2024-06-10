@@ -1,0 +1,5 @@
+com\example\demo\DemoApplication.class
+com\example\demo\model\Zaiko.class
+com\example\demo\service\ZaikoService.class
+com\example\demo\repository\ZaikoRepository.class
+com\example\demo\controller\ZaikoController.class
