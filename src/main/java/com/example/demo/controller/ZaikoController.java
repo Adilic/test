@@ -16,6 +16,7 @@ public class ZaikoController {
 
     @PostMapping("/add")
     public Zaiko addZaiko(@RequestBody Zaiko zaiko) {
+
         return zaikoService.saveZaiko(zaiko);
     }
 
