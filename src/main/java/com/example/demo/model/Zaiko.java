@@ -1,5 +1,8 @@
 package com.example.demo.model;
 
+import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Id;
@@ -11,6 +14,8 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "zaiko")
+@DynamicInsert
+@DynamicUpdate
 public class Zaiko {
 
     @Id
